@@ -36,4 +36,20 @@ foreach ($clube as $nome => $chave) {
 	}
 }
 
+echo "<br>";
+
+$soma = 0;
+for ($i=1; $i<=10;$i++) {
+$numero=rand(1,10);
+$soma = $soma + $numero;
+echo $numero;
+echo "<br>";
+}
+echo "<br>";
+echo $soma;
+// echo $numero;
+
+
+
+
 ?>
